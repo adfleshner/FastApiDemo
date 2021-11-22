@@ -1,6 +1,6 @@
 from fastapi import FastAPI, status, HTTPException
-from Item import Item
-from DataStoreInterface import LocalDataStore
+from item import Item
+from data_store import LocalDataStore
 
 app = FastAPI()
 ds = LocalDataStore()

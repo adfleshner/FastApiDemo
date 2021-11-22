@@ -1,5 +1,5 @@
 import sqlite3 as sl
-from Item import Item, cursor_to_item
+from item import Item, cursor_to_item
 
 
 # class to handle all database operations
