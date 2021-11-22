@@ -30,13 +30,17 @@ INFO:     Application startup complete.
 Now is it Running locally at the link above 
 http://127.0.0.1:8000 just click the link, and you will see
 
-###DONE
-(Root Endpoint page)[images/you_did_a_thing.png]
+### DONE.  
+<img src="https://github.com/adfleshner/FastApiDemo/blob/master/images/you_did_a_thing.png"
+	 style="object-fit:cover;
+            width:578px;
+            height:332px;
+            border: solid 1px #CCC"/>
 
 Cool You have it running.
 
 ### Next Steps
-If you have Postman install open it. if you don't you can download it here. (PostMan Download)[https://www.postman.com/downloads/] 
+If you have Postman install open it. if you don't you can download it here. <a href="https://www.postman.com/downloads/">PostMan Download</a>
 
 After you have downloaded and opened postman. Go to File > Import > and find calls.json in the postman folder inside of this project.
 
