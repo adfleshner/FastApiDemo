@@ -62,7 +62,7 @@ async def remove_item(item_id: int):
 @app.post("/paged/item", status_code=status.HTTP_201_CREATED)
 async def create_paged_item(item: PagedItem):
     try:
-        pds.add_item(item)
+        pds.add_item(item.name)
         return item
     except Exception:
         raise HTTPException(status_code=400,
