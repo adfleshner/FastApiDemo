@@ -50,3 +50,23 @@ This will give you the 4 commands that I added to this project.
 So one of the best parts about FastApi is that it supports swagger out of the box.
 
 Simply go to http://127.0.0.1:8000/docs to see the swagger docs.
+
+
+### Paged API Calls
+I have created multiple API calls to deal with various paged DB queries.
+
+## GET  
+```/paged/items/all```  
+```/paged/items/offset/{start + lowest_known_id}/limit/{limit}```
+
+## POST  
+### Single
+```/paged/item/```  
+```body {"name":"{Something}"}```   
+### Multiple
+```/paged/item/amount/{amount_to_be_created}```  
+```body {"name":"{Something}"}``` 
+
+## DELETE
+```/paged/items/all```
+
